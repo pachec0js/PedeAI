@@ -69,7 +69,8 @@
 
 ## 📜 Licença
 
-Projeto acadêmico sem fins comerciais, desenvolvido como Projeto Integrador da ETEC.
+Projeto acadêmico sem fins comerciais, desenvolvido como Projeto Integrador do Senai
+.
 
 ---
 
