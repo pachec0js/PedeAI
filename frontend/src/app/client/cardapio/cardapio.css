@@ -1,0 +1,11 @@
+.card-produto {
+    width: 100%;
+    margin-bottom: 25%;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}

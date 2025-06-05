@@ -1,0 +1,111 @@
+.banner {
+    width: 100%;
+}
+
+.h5 {
+    color: var(--marrom-suave)
+}
+
+.contatoSection {
+    background-color: var(--branco);
+    color: #333;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--vermelho-escuro);
+}
+
+.subtitle {
+    color: var(--marrom-suave);
+    margin-bottom: 2rem;
+}
+
+.cardBox {
+    gap: 2rem;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.cardItem {
+    background-color: #fdf1f1;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cardItem i {
+    font-size: 3rem;
+    color: var(--vermelho-escuro);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.cardItem h5 {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    color: var(--marrom-suave);
+}
+
+.cardItem p {
+    margin: 0;
+    color: var(--marrom-suave);
+}
+
+
+.titulo-h5 {
+    color: var(--marrom-suave)
+}
+
+.form input,
+.form textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+}
+
+.form-select:focus{
+    box-shadow: none !important;
+    color: var(--marrom-suave);
+}
+
+.submitButton {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    padding: 0.6rem 1.8rem;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.duvida {
+    margin-top: 8%;
+}
+
+.accordion-button{
+    color: var(--marrom-suave);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--branco) !important;
+    
+}
+
+.accordion-button:focus{
+ box-shadow: none !important;
+ color: var(--vermelho-escuro);
+}
+
+.accordion-body{
+    color: var(--marrom-suave);
+}
+
+

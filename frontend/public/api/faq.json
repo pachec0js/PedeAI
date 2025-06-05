@@ -1,0 +1,43 @@
+[
+    {
+        "id": "faq1",
+        "pergunta": "Como faço para realizar um pedido?",
+        "resposta": "Você pode realizar seu pedido diretamente pelo nosso site, navegando pelo cardápio, adicionando os itens ao carrinho, finalizando a compra e agendando o horario de retirada. Você também pode fazer pedidos por telefone ou WhatsApp para retirada."
+    },
+    {
+        "id": "faq2",
+        "pergunta": "Quais são as formas de pagamento aceitas?",
+        "resposta": "Aceitamos pagamentos via Pix, cartões de crédito e débito das principais bandeiras, e também pagamento em dinheiro ou cartão na retirada do pedido na cantina."
+    },
+    {
+        "id": "faq3",
+        "pergunta": "Qual o horário de funcionamento da cantina?",
+        "resposta": "Nossa cantina funciona de Segunda a Sexta, das 7h às 17h. Pedidos online podem ser feitos a qualquer momento, mas a preparação e retirada seguem o horário de funcionamento."
+    },
+    {
+        "id": "faq4",
+        "pergunta": "Posso agendar um pedido para um horário específico?",
+        "resposta": "Sim, ao finalizar seu pedido online, você terá a opção de agendar a retirada para um horário específico dentro do nosso horário de funcionamento. Para pedidos grandes ou especiais, recomendamos entrar em contato com antecedência."
+    },
+    {
+        "id": "faq5",
+        "pergunta": "Como faço para ganhar BreadCoin?",
+        "resposta": "Ao adquirir um produto, você receberá uma quantidade de créditos proporcional ao item comprado. Na página específica de cada produto, estarão disponíveis as informações sobre os valores de crédito gerados após a compra."
+    },
+    {
+        "id": "faq6",
+        "pergunta": "Quantos BreadCoins consigo ganhar em uma compra?",
+        "resposta": "De acordo com o produto selecionado, a cada R$ 1,00 gasto, você acumulará 1 ponto. Esses pontos poderão ser acumulados e posteriormente trocados por produtos disponíveis na loja."
+    },
+    {
+        "id": "faq7",
+        "pergunta": "Quantos BreadCoins consigo ganhar em uma compra?",
+        "resposta": "De acordo com o produto selecionado, a cada R$ 1,00 gasto, você acumulará 1 ponto. Esses pontos poderão ser acumulados e posteriormente trocados por produtos disponíveis na loja."
+    },
+    {
+        "id": "faq8",
+        "pergunta": "Quantos BreadCoins consigo ganhar em uma compra?",
+        "resposta": "De acordo com o produto selecionado, a cada R$ 1,00 gasto, você acumulará 1 ponto. Esses pontos poderão ser acumulados e posteriormente trocados por produtos disponíveis na loja."
+    }
+
+]
