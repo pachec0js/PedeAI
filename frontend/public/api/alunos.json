@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nome": "Felipe Andrade Souza Pacheco",
+        "ra": "2345671",
+        "email": "felipe@etec.sp.gov.br",
+        "senha": "felipe329",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/felipe.png"
+    },
+    {
+        "id": 2,
+        "nome": "Paula Duarte Martins Vasconcelos",
+        "ra": "2345672",
+        "email": "paula@etec.sp.gov.br",
+        "senha": "paula921",
+        "turma": "2iB-DS",
+        "foto": "/imagens/alunos/paula.png"
+    },
+    {
+        "id": 3,
+        "nome": "João Pedro",
+        "ra": "RA001",
+        "email": "joao.pedro@escola.com",
+        "senha": "senha124",
+        "turma": "3iC-XX",
+        "foto": "/imagens/alunos/joao.png"
+    },
+    {
+        "id": 4,
+        "nome": "Mariana Costa",
+        "ra": "RA002",
+        "email": "mariana.costa@escola.com",
+        "senha": "senha456",
+        "turma": "3iB-XX",
+        "foto": "/imagens/alunos/mariana.png"
+    }
+]

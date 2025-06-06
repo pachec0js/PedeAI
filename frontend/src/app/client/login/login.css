@@ -1,0 +1,159 @@
+.container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.mainContent {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures rounded corners are respected for children */
+  width: 90%; /* Responsive width */
+}
+
+.illustrationSection {
+  flex: 1;
+  background-color: #e4e4e4; /* A slightly different background for the left side */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+}
+
+.loginFormSection {
+  flex: 1.2; /* Give more space to the login form */
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text and form to the left */
+}
+
+.welcomeMessage {
+  margin-bottom: 40px;
+}
+
+.welcomeMessage h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--vermelho-escuro); /* Red color from image */
+}
+
+.welcomeMessage p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.loginForm {
+  width: 100%;
+  max-width: 400px; /* Limit form width */
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Space between inputs */
+}
+
+.inputField {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.1em;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: var(--vermelho-escuro); /* Red border on focus */
+}
+
+.submitButton {
+  background-color: var(--vermelho-escuro); /* Red color */
+  color: var(--branco);
+  padding: 18px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--vermelho-escuro); /* Darker red on hover */
+}
+
+.arrowIcon {
+  font-size: 1.5em;
+  line-height: 1; /* Ensures vertical alignment */
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+  .mainContent {
+    flex-direction: column;
+    width: 95%;
+    max-width: 600px;
+  }
+
+  .illustrationSection {
+    padding: 30px;
+    height: 300px; /* Adjust height for smaller screens */
+    border-bottom: 1px solid #eee;
+  }
+
+  .loginFormSection {
+    padding: 40px 30px;
+    align-items: center; /* Center content when stacked */
+    text-align: center;
+  }
+
+  .welcomeMessage {
+    margin-bottom: 30px;
+  }
+
+  .welcomeMessage h1 {
+    font-size: 2em;
+  }
+
+  .welcomeMessage p {
+    font-size: 1em;
+  }
+
+  .loginForm {
+    max-width: 350px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .illustrationSection {
+    height: 250px;
+    flex-direction: column;
+  }
+
+  .loginFormSection {
+    padding: 30px 20px;
+  }
+
+  .welcomeMessage h1 {
+    font-size: 1.8em;
+  }
+
+  .inputField,
+  .submitButton {
+    padding: 12px 15px;
+    font-size: 1em;
+  }
+}
