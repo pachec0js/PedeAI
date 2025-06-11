@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+
+.mais-vendidos {
+    margin-top: 2rem;
+  }
+  
+.mais-vendidos-titulo {
+    color: #bc1823;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+  
+.barra-vermelha {
+    border-left: 5px solid #bc1823;
+    padding-left: 0.5rem;
+}
+
+.card-produto {
+    width: 100% !important;
+    margin-bottom: 25%;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .prod-card {
+        width: 40%;
+        margin-bottom: 5%;
+    }
+    
+    .botao-icone {
+        padding: 6px 9%;
+    }
+}

@@ -1,0 +1,196 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.titulo-pedidos,
+.titulo-trocas {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--vermelho-escuro);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.titulo-trocas {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+
+.pedido-card {
+  background-color: var(--branco);
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.pedido-info-topo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--preto);
+  gap: 1rem;
+}
+
+.pedido-info-topo strong {
+  font-weight: bold;
+  color: var(--vermelho-escuro);
+}
+
+.pedido-id {
+  color: var(--amarelo-pastel);
+  font-weight: bold;
+}
+
+.linha-divisoria {
+  height: 2px;
+  background-color: #ffe0a3;
+  margin: 1rem 0;
+  border: none;
+}
+
+.itens-pedido {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.img-produto-pedido {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.detalhes-item {
+  flex: 1;
+}
+
+.nome-produto {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+  color: var(--vpreto);
+}
+
+.obs {
+  font-size: 0.9rem;
+  color: var(--cinza);
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+}
+
+.acoes {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--vermelho-escuro);
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+}
+
+.acoes i {
+  margin-right: 4px;
+}
+
+.agendamento-info {
+  color: var(--amarelo-pastel);
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.modal-confirmacao {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.titulo-trocas img {
+    width: 4%;
+}
+
+.card.combo-troca {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.combo-topo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: bold;
+  color: var(--preto);
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.combo-topo span {
+  font-weight: normal;
+}
+
+.combo-topo strong {
+    color: var(--vermelho-escuro);
+}
+
+.combo-retirada {
+  color: var(--vermelho-escuro);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.combo-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.combo-conteudo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.combo-conteudo strong {
+  font-weight: bold;
+  color: var(--vermelho-escuro);
+  font-size: 1.1rem;
+}
+
+.combo-conteudo a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  color: var(--vermelho-escuro);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.combo-conteudo a:hover {
+  text-decoration: underline;
+}

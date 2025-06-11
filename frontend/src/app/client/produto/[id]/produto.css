@@ -1,0 +1,178 @@
+.produto-page {
+    margin-top: 50px;
+}
+
+.img-produto {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.escolher-produto {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+}
+
+.title-personaliza {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+}
+
+.personaliza {
+    width: 100%;
+    border-radius: var(--bs-border-radius);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--cinza);
+}
+
+.personaliza:focus {
+    background-color: var(--cinza);
+}
+
+.preco-produto {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.quantidade-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--vermelho-escuro);
+    border-radius: 30px;
+    padding: 4px 15px;
+}
+
+.quantidade-selector button {
+    border: none;
+    background: none;
+    color: var(--vermelho-escuro);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.quantidade-selector span {
+    font-size: 1.2rem;
+    color: var(--vermelho-escuro);
+}
+
+.btn-add-carrinho {
+    background-color: #ffa446;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sabores {
+    display: flex;
+    gap: 20px;
+}
+
+.sabor {
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: var(--laranja-queimado);
+}
+
+.sabor img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.sabor.ativo img {
+    border: 2px solid #ffa446;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.descricao-produto {
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.coin-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffa446;
+    border-radius: 40px;
+    padding: 8px 16px;
+    background-color: #ffa446;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.coin-card span {
+    color: white;
+    font-weight: bold;
+}
+
+.coin-card img {
+    width: 25px;
+    height: 25px;
+}
+
+.coin-box {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-box h5 {
+    margin: 0;
+    color: #ffa446;
+}
+
+.texto-secundario {
+    font-size: 0.9rem;
+    color: #ffa446;
+}
+
+.btn-personalizar {
+    border: 2px solid #ffa446;
+    color: #ffa446;
+    background: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+
+.btn-personalizar:hover {
+    background-color: #ffa446;
+    color: white;
+    transition: 0.3s;
+}
+
+.proximo-sabor {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+}
+
+.barra-vermelha {
+    border-left: 5px solid #bc1823;
+    padding-left: 0.5rem;
+}
+
+.cards-container {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    flex-wrap: wrap;
+}

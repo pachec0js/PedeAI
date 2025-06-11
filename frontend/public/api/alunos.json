@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "nome": "Alice Pereira da Silva",
+        "ra": "2345673",
+        "email": "alice.silva@etec.sp.gov.br",
+        "senha": "alice123",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/alice.png"
+    },
+    {
+        "id": 2,
+        "nome": "Bernardo Oliveira Costa",
+        "ra": "2345674",
+        "email": "bernardo.costa@etec.sp.gov.br",
+        "senha": "bernardo456",
+        "turma": "3iA-DS",
+        "foto": "/imagens/alunos/bernardo.png"
+    },
+    {
+        "id": 3,
+        "nome": "Carlos Martins Rodrigues",
+        "ra": "2345675",
+        "email": "carlos.rodrigues@etec.sp.gov.br",
+        "senha": "carlos789",
+        "turma": "1iB-SS",
+        "foto": "/imagens/alunos/carlos.png"
+    },
+    {
+        "id": 4,
+        "nome": "Davi Souza Almeida",
+        "ra": "2345676",
+        "email": "davi.almeida@etec.sp.gov.br",
+        "senha": "davi101",
+        "turma": "2iC-DS",
+        "foto": "/imagens/alunos/davi.png"
+    },
+    {
+        "id": 5,
+        "nome": "Dorote Reis de Moraes",
+        "ra": "2345677",
+        "email": "dorote.moraes@etec.sp.gov.br",
+        "senha": "dorote212",
+        "turma": "3iDA-SS",
+        "foto": "/imagens/alunos/dorote.png"
+    },
+    {
+        "id": 6,
+        "nome": "Fabio Andrade Pacheco",
+        "ra": "2345671",
+        "email": "fabio.pacheco@etec.sp.gov.br",
+        "senha": "fabio329",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/fabio.png"
+    },
+    {
+        "id": 7,
+        "nome": "Felipe Ribeiro Gomes",
+        "ra": "2345678",
+        "email": "felipe.gomes@etec.sp.gov.br",
+        "senha": "felipe451",
+        "turma": "1iA-DS",
+        "foto": "/imagens/alunos/felipe.png"
+    },
+    {
+        "id": 8,
+        "nome": "Giovana Lima Ferreira",
+        "ra": "2345679",
+        "email": "giovana.ferreira@etec.sp.gov.br",
+        "senha": "giovana632",
+        "turma": "3iB-SS",
+        "foto": "/imagens/alunos/giovana.png"
+    },
+    {
+        "id": 9,
+        "nome": "Hadassa Rocha de Jesus",
+        "ra": "2345680",
+        "email": "hadassa.jesus@etec.sp.gov.br",
+        "senha": "hadassa845",
+        "turma": "2iB-DS",
+        "foto": "/imagens/alunos/hadassa.png"
+    },
+    {
+        "id": 10,
+        "nome": "Henrique Santos Alves",
+        "ra": "2345681",
+        "email": "henrique.alves@etec.sp.gov.br",
+        "senha": "henrique129",
+        "turma": "1iC-SS",
+        "foto": "/imagens/alunos/henrique.png"
+    },
+    {
+        "id": 11,
+        "nome": "Isabela Barbosa Dias",
+        "ra": "2345682",
+        "email": "isabela.dias@etec.sp.gov.br",
+        "senha": "isabela348",
+        "turma": "3iC-DS",
+        "foto": "/imagens/alunos/isabela.png"
+    },
+    {
+        "id": 12,
+        "nome": "Julia Tamura",
+        "ra": "2345683",
+        "email": "julia.tamura@etec.sp.gov.br",
+        "senha": "julia571",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/julia.png"
+    },
+    {
+        "id": 13,
+        "nome": "Juliano Lino",
+        "ra": "2345684",
+        "email": "juliano.lino@etec.sp.gov.br",
+        "senha": "juliano894",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/juliano.png"
+    },
+    {
+        "id": 14,
+        "nome": "Leonardo Mendes Pires",
+        "ra": "2345685",
+        "email": "leonardo.pires@etec.sp.gov.br",
+        "senha": "leonardo237",
+        "turma": "1iB-DS",
+        "foto": "/imagens/alunos/leonardo.png"
+    },
+    {
+        "id": 15,
+        "nome": "Lidia Castro Nogueira",
+        "ra": "2345686",
+        "email": "lidia.nogueira@etec.sp.gov.br",
+        "senha": "lidia589",
+        "turma": "3iA-SS",
+        "foto": "/imagens/alunos/lidia.png"
+    },
+    {
+        "id": 16,
+        "nome": "Lucas Barros Pinto",
+        "ra": "2345687",
+        "email": "lucas.pinto@etec.sp.gov.br",
+        "senha": "lucas147",
+        "turma": "2iA-DS",
+        "foto": "/imagens/alunos/lucas.png"
+    },
+    {
+        "id": 17,
+        "nome": "Luis Gustavo",
+        "ra": "2345688",
+        "email": "luis.gustavo@etec.sp.gov.br",
+        "senha": "luis258",
+        "turma": "2iDA-SS",
+        "foto": "/imagens/alunos/luis.png"
+    },
+    {
+        "id": 18,
+        "nome": "Luiza Correia Azevedo",
+        "ra": "2345689",
+        "email": "luiza.azevedo@etec.sp.gov.br",
+        "senha": "luiza369",
+        "turma": "1iDA-SS",
+        "foto": "/imagens/alunos/luiza.png"
+    },
+    {
+        "id": 19,
+        "nome": "Paula Duarte Martins Vasconcelos",
+        "ra": "2345672",
+        "email": "paula.vasconcelos@etec.sp.gov.br",
+        "senha": "paula921",
+        "turma": "2iB-DS",
+        "foto": "/imagens/alunos/paula.png"
+    },
+    {
+        "id": 20,
+        "nome": "Roberta Fernandes Cunha",
+        "ra": "2345690",
+        "email": "roberta.cunha@etec.sp.gov.br",
+        "senha": "roberta741",
+        "turma": "3iB-DS",
+        "foto": "/imagens/alunos/roberta.png"
+    },
+    {
+        "id": 21,
+        "nome": "Sara Teixeira Neves",
+        "ra": "2345691",
+        "email": "sara.neves@etec.sp.gov.br",
+        "senha": "sara852",
+        "turma": "1iC-DS",
+        "foto": "/imagens/alunos/sara.png"
+    },
+    {
+        "id": 22,
+        "nome": "Vitor Cardoso Ramos",
+        "ra": "2345692",
+        "email": "vitor.ramos@etec.sp.gov.br",
+        "senha": "vitor963",
+        "turma": "2iC-SS",
+        "foto": "/imagens/alunos/vitor.png"
+    }
+]

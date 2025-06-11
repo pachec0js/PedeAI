@@ -1,0 +1,181 @@
+.login-container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.mainContent {
+  display: flex;
+  background-color: #ffffff;
+ border-radius: 4rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden; /* Ensures rounded corners are respected for children */
+  width: 90%; /* Responsive width */
+}
+
+.illustrationSection {
+  flex: 1;
+  background-color: #ffe0af; /* A slightly different background for the left side */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+}
+
+.loginFormSection {
+  flex: 1.2; /* Give more space to the login form */
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text and form to the left */
+}
+
+.welcomeMessage {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.welcomeMessage h1 {
+    font-size: 2.2em;
+    color: var(--vermelho-escuro);
+    margin-bottom: 10px;
+    margin-top: -15%;
+    font-weight: 700;
+    position: relative;
+}
+
+.welcomeMessage h1::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 20%;
+    width: 8px;
+    height: 4.5rem;
+    background-color: var(--vermelho-escuro);
+    
+}
+
+
+.welcomeMessage p {
+    font-size: 1.5rem;
+    color: #ffa446;
+    font-weight: bold;
+}
+
+
+.loginForm {
+  width: 100%;
+  max-width: 400px; /* Limit form width */
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Space between inputs */
+}
+
+.inputField { 
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #ddd;
+  border-radius: 4rem;
+  font-size: 1.1em;
+  outline: none;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: var(--vermelho-escuro); 
+}
+
+.submitButton {
+  background-color: var(--amarelo-pastel);
+  color: var(--branco);
+  padding: 10px 20px;
+  border: 1px solid var(--amarelo-pastel);
+  border-radius: 4rem;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  transition: all ease .2s;
+}
+
+.btnTextLogin {
+  display: inline-block;
+}
+
+.btnIconLogin {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8%;
+}
+
+.submitButton:hover {
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 992px) {
+  .mainContent {
+    flex-direction: column;
+    width: 95%;
+    max-width: 600px;
+  }
+
+  .illustrationSection {
+    padding: 30px;
+    height: 300px; /* Adjust height for smaller screens */
+    border-bottom: 1px solid #eee;
+  }
+
+  .loginFormSection {
+    padding: 40px 30px;
+    align-items: center; /* Center content when stacked */
+    text-align: center;
+  }
+
+  .welcomeMessage {
+    margin-bottom: 30px;
+  }
+
+  .welcomeMessage h1 {
+    font-size: 2em;
+  }
+
+  .welcomeMessage p {
+    font-size: 1em;
+  }
+
+  .loginForm {
+    max-width: 350px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .illustrationSection {
+    height: 250px;
+    flex-direction: column;
+  }
+
+  .loginFormSection {
+    padding: 30px 20px;
+  }
+
+  .welcomeMessage h1 {
+    font-size: 1.8em;
+  }
+
+  .inputField,
+  .submitButton {
+    padding: 12px 15px;
+    font-size: 1em;
+  }
+}

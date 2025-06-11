@@ -1,0 +1,81 @@
+.dashboard-container {
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.cards-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card-item {
+  background: white;
+  flex: 1;
+  min-width: 220px;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card-item p {
+  margin: 0;
+  font-weight: 500;
+  color: #555;
+}
+
+.card-item h2 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.card-item span {
+  font-size: 0.875rem;
+}
+
+.positivo {
+  color: green;
+}
+
+.negativo {
+  color: red;
+}
+
+.section-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.section-left, .section-right {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-left h3, .section-right h3 {
+  margin-top: 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.stats-grid div {
+  background-color: #f3f3f3;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stats-grid strong {
+  font-size: 1.5rem;
+  display: block;
+}

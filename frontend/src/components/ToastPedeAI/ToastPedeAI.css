@@ -1,0 +1,18 @@
+.toast-pedeai {
+  background-color: var(--laranja-queimado) !important;
+  color: var(--branco) !important;
+  border-radius: 12px !important;
+  padding: 12px 16px !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 200, 0, 0.2);
+}
+
+.toast-body {
+  font-size: 14px;
+}
+
+.toast-barra {
+  background: var(--amarelo-pastel) !important;
+  height: 4px;
+  border-radius: 2px;
+}

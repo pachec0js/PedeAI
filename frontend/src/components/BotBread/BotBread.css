@@ -1,0 +1,49 @@
+.botbread-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+  background-color: var(--amarelo-pastel);
+   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--preto);
+  border-radius: 50px;
+  padding: 0;
+}
+
+.botbread-btn img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s;
+}
+
+.botbread-btn:hover img {
+  transform: scale(1.01);
+}
+
+.botbread-chat {
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mensagem {
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+  font-size: 0.95rem;
+}
+
+.mensagem.bot {
+  background-color: #f8f9fa;
+  align-self: flex-start;
+  border: 1px solid #e0e0e0;
+}
+
+.mensagem.usuario {
+  background-color: #ffe0a3;
+  align-self: flex-end;
+  border: 1px solid #ffc107;
+}

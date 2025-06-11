@@ -1,0 +1,62 @@
+.dashboard {
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+}
+
+.sidebar {
+  width: 230px;
+  background: #e9ecef;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.logo {
+  width: 80%;
+}
+
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 20px 0;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu li:hover a {
+  color: var(--vermelho-escuro) !important;
+}
+
+.menu li a {
+  color: var(--preto);
+  text-decoration: none;
+}
+
+.menu li i {
+  color: var(--vermelho-escuro) !important;
+}
+
+.admin-Logout {
+  border: none;
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.admin-Logout:hover {
+  color: var(--vermelho-escuro);
+}
+
+.menu img {
+  width: 13%;
+}
+
+.content-pai {
+  width: 100%;
+}

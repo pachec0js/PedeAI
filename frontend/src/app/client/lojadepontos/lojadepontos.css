@@ -1,0 +1,124 @@
+.loja-pontos-titulo {
+    color: var(--vermelho-escuro);
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.barra-vermelha {
+    border-left: 5px solid var(--vermelho-escuro);
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.sub-title-pontos {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--amarelo-pastel);
+    margin-top: 2%;
+}
+
+.coin-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffa446;
+    border-radius: 40px;
+    padding: 8px 16px;
+    background-color: #ffa446;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.coin-card span {
+    color: white;
+    font-weight: bold;
+}
+
+.coin-card img {
+    width: 25px;
+    height: 25px;
+}
+
+.coin-box {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-box h5 {
+    margin: 0;
+    color: #ffa446;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-produto {
+    width: 100% !important;
+    margin-bottom: 25%;
+}
+
+.card-conteudo {
+    background-color: var(--amarelo-pastel);
+}
+
+.nome-produto {
+    margin-top: 2%;
+}
+
+.nome-produto, .preco-produto {
+    color: var(--branco) !important;;
+}
+
+.botao-icone {
+    background-color: var(--branco); 
+}
+
+.texto-compre, .seta-icon {
+    color: var(--amarelo-pastel);
+}
+
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-confirmacao {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    animation: popIn 0.3s ease;
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,119 @@
+.card-produto {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+ 
+}
+
+.imagem-produto {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-conteudo {
+    background: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+}
+
+.nome-produto {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #4d3b31;
+}
+
+.peso-produto {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.preco-produto {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.preco-produto.laranja {
+    color: #f39c12;
+}
+
+.botao-icone {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 6px 12px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.texto-compre {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.4s ease;
+    font-size: 0.95rem;
+    margin-right: 6px;
+}
+
+.botao-icone:hover .texto-compre {
+    opacity: 1;
+    max-width: 120px;
+}
+
+.seta-icon {
+    font-size: 1.2rem;
+    margin-left: 4px;
+    transition: transform 0.3s ease, margin-left 0.3s ease;
+}
+
+.botao-icone:hover .seta-icon {
+    transform: translateX(6px);
+    margin-left: 10px;
+}
+
+.card-produto.indisponivel {
+  opacity: 0.6;
+  pointer-events: none;
+  filter: grayscale(30%);
+}
+
+.card-produto.indisponivel .botao-icone {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.card-produto.indisponivel .botao-icone .seta-icon {
+  color: #999;
+}
+
+
+@media (max-width: 768px) {
+    .card-produto {
+        width: 90%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+

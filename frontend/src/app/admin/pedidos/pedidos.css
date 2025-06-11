@@ -1,0 +1,38 @@
+/* app/admin/pedidos/pedidos.css */
+.card-pedido.status-pendente .card-header {
+    background-color: #fff3cd; /* Amarelo claro */
+    border-bottom: 2px solid #ffc107;
+}
+.badge-status-pendente {
+    background-color: #ffc107 !important;
+    color: #333 !important;
+}
+
+.card-pedido.status-pronto .card-header {
+    background-color: #cce5ff; /* Azul claro */
+    border-bottom: 2px solid #007bff;
+}
+.badge-status-pronto {
+    background-color: #007bff !important;
+}
+
+.card-pedido.status-entregue .card-header {
+    background-color: #d4edda; /* Verde claro */
+    border-bottom: 2px solid #28a745;
+}
+.badge-status-entregue {
+    background-color: #28a745 !important;
+}
+
+.card-pedido.status-cancelado .card-header {
+    background-color: #f8d7da; /* Vermelho claro */
+    border-bottom: 2px solid #dc3545;
+}
+.badge-status-cancelado {
+    background-color: #dc3545 !important;
+}
+
+/* Garante que o modal apareça sobre o backdrop */
+.modal.show {
+    z-index: 1055;
+}

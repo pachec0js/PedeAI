@@ -1,0 +1,133 @@
+.destaques-container {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.icones-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+
+
+.icone-card {
+  text-align: center;
+  max-width: 200px;
+  margin: 1rem;
+}
+
+.icone {
+  font-size: 7rem;
+  color: #bc1823;
+}
+
+.burguer {
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+}
+
+
+.titulo {
+  color: #6f5846;
+  margin-top: 0.5rem;
+  font-weight: bolder;
+
+}
+
+.descricao {
+  color: #6f5846;
+  font-size: 0.95rem;
+}
+
+.mais-vendidos {
+  margin-top: 2rem;
+}
+
+.mais-vendidos-titulo {
+  color: #bc1823;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.barra-vermelha {
+  border-left: 5px solid #bc1823;
+  padding-left: 0.5rem;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6f5846;
+  margin-bottom: 40px;
+}
+
+
+
+.cards-container {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.banner-novi img {
+  border-radius: 25px;
+  transition: all ease .3s;
+}
+
+.banner-novi img:hover {
+  transform: scale(1.01);
+}
+
+.sobre-nos {
+  background-color: #fffefc;
+}
+
+.img-sobre {
+  max-width: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+.titulo-sobre .borda-vermelha {
+  border-left: 5px solid #b20000;
+  padding-left: 10px;
+  color: #b20000;
+  font-weight: bold;
+}
+
+.texto-sobre .texto {
+  text-align: justify;
+  font-size: 1rem;
+  color: #6f5846;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-produto {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .sobre-nos {
+    text-align: center;
+  }
+
+  .texto-sobre .texto {
+    text-align: left;
+  }
+
+  .img-sobre {
+    width: 100%;
+    max-width: 100%;
+  }
+}

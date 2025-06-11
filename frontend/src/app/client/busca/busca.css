@@ -1,0 +1,27 @@
+.pesquisa-titulo {
+    color: var(--vermelho-escuro);
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+  
+.barra-vermelha {
+    border-left: 5px solid var(--vermelho-escuro);
+    padding-left: 0.5rem;
+}
+
+.termo-pesquisado {
+    color: var(--amarelo-pastel);
+}
+
+.card-produto {
+    width: 100% !important;
+    margin-bottom: 25%;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}

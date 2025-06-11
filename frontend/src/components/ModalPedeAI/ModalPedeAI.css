@@ -1,0 +1,12 @@
+.modal h5 {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+}
+
+.modal {
+    color: var(--marrom-suave);
+}
+
+.modal .btn-outline-warning:hover {
+    color: var(--branco);
+}

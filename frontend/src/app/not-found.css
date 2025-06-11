@@ -1,0 +1,20 @@
+.not-found-btn{
+background-color: var(--vermelho-escuro);
+border-radius: 2rem;
+width: 20%;
+height: 3rem;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+font-weight: bold;
+font-size: larger;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h1.titulo {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+}
+
+h5{
+    color: var(--marrom-suave);
+}

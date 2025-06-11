@@ -1,0 +1,171 @@
+.offcanvas-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--vermelho-escuro);
+}
+
+.custom-close {
+    filter: invert(21%) sepia(100%) saturate(6300%) hue-rotate(348deg) brightness(101%) contrast(107%);
+}
+
+
+.container-perfil {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.ra {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--vermelho-escuro);
+    margin-bottom: 7%;
+}
+
+.avatar-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.avatar-border {
+    width: 218px;
+    height: 208px;
+    border-radius: 50%;
+    border: 2px solid var(--vermelho-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ddd;
+    object-fit: cover;
+}
+
+.nome {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--vermelho-escuro);
+    margin-bottom: 12px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--vermelho-escuro);
+    width: 90%;
+    margin: 0 auto 16px auto;
+    opacity: 0.4;
+}
+
+.logo-wrapper {
+    margin: 0 auto 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-cantina {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.breadcoins-display {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--amarelo-pastel);
+    border: 2px solid var(--amarelo-pastel);
+    border-radius: 20px;
+    padding: 10px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.coin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.bc-text {
+    margin-right: 8px;
+}
+
+.bc-arrow-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.bc-arrow {
+    color: var(--amarelo-pastel);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.points {
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.buttons-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-ver-pedidos {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 5%;
+}
+
+.btn-ver-pedidos:hover {
+    opacity: .9;
+}
+
+.pedidos-arrow {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidos-arrow span {
+    color: var(--vermelho-escuro);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Logout {
+    justify-content: center;
+    padding: 5px 5px;
+    width: 50%;
+}
